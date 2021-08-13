@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width", initial-scale=1.0>
+        <title>Bank Dashboard</title>
+        
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-university" aria-hidden="true"></i></span>
+                            <span class="title"><h2>Bank Dashboard</h2></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+                            <span class="title">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                            <span class="title">Accounts</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-history" aria-hidden="true"></i></span>
+                            <span class="title">Transaction History</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-credit-card-alt" aria-hidden="true"></i></span>
+                            <span class="title">Credit Cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-info" aria-hidden="true"></i></span>
+                            <span class="title">Help</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-sign-out" aria-hidden="true"></i></span>
+                            <span class="title">Sign Out</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="main">
+                <div class="topbar">
+                    <div class="toggle" onclick="toggleMenu()"></div>
+                    <div class="search">
+                        <label>
+                            <input type="text" placeholder="Search here">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+
+                        </label>
+                    </div>
+                    <div class="user">
+                        <img src="user.jpg">
+                    </div>
+                </div>
+
+                <div class="cardBox">
+                    <div class="card">
+                        <div>
+                            <div class="numbers">Rs.56,000</div>
+                            <div class="cardName">Current Account Balance</div>
+                            
+                        </div>
+                        <div class="iconBox">
+                            <i class="fa fa-money" aria-hidden="true"></i>
+
+
+                        </div>
+                    </div>
+
+                    
+                    <div class="card">
+                        <div>
+                            <div class="numbers">235,000</div>
+                            <div class="cardName">Savings Account Balance</div>
+                        </div>
+                        <div class="iconBox">
+                            <i class="fa fa-money" aria-hidden="true"></i>
+
+
+                        </div>
+                    </div>
+
+                    
+                    <div class="card">
+                        <div>
+                            <div class="numbers">Rs.1,325,357</div>
+                            <div class="cardName">Loan Balance</div>
+                        </div>
+                        <div class="iconBox">
+                            <i class="fa fa-balance-scale" aria-hidden="true"></i>
+
+                        </div>
+                    </div>
+
+                    
+                    <div class="card">
+                        <div>
+                            <div class="numbers">Rs.34,000</div>
+                            <div class="cardName">Balance for credit cards</div>
+                        </div>
+                        <div class="iconBox">
+                            <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="details">
+                    <div class="recentActivities">
+                        <div class="cardHeader">
+                            <h2>Recent Activities</h2>
+                            <a href="#" class="btn">View All</a>
+                        </div>
+                        <table>
+                            <thead>
+                                <tr>                                
+                                    <td>Name</td>
+                                    <td>Amount</td>
+                                    <td>Payment Type</td>
+                                    <td>Status</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Will Smith</td>
+                                    <td>230$</td>
+                                    <td>Receive</td>
+                                    <td><span class="status completed">Complete</span></td>
+                                </tr>
+
+                                
+                                <tr>
+                                    <td>Olivia Rodrigo</td>
+                                    <td>340$</td>
+                                    <td>Send</td>
+                                    <td><span class="status pending">Pending</span></td>
+                                </tr>
+
+                                
+                                <tr>
+                                    <td>Andrew Price</td>
+                                    <td>126$</td>
+                                    <td>Send</td>
+                                    <td><span class="status pending">Pending</span></td>
+                                </tr>
+
+                                
+                                <tr>
+                                    <td>Aida Bugg</td>
+                                    <td>87$</td>
+                                    <td>Receive</td>
+                                    <td><span class="status pending">Pending</span></td>
+                                </tr>
+
+                                
+                                <tr>
+                                    <td>Peg Legge</td>
+                                    <td>548$</td>
+                                    <td>Send</td>
+                                    <td><span class="status completed">Complete</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Ton Roosendal</td>
+                                    <td>34$</td>
+                                    <td>Receive</td>
+                                    <td><span class="status completed">Complete</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Janiru Semitha</td>
+                                    <td>331$</td>
+                                    <td>Send</td>
+                                    <td><span class="status pending">Pending</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="currentExchangerates">
+                        <div class="cardHeader">
+                            <h2>Current Exchange Rates</h2>
+                            
+                        </div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><h4>USD<br><span>Rs.190</span></h4></td>
+                                </tr>
+                                <tr>
+                                    <td><h4>JPY<br><span>Rs.1.81</span></h4></td>
+                                </tr>
+                                <tr>
+                                    <td><h4>EUR<br><span>Rs.238</span></h4></td>
+                                </tr>
+                                <tr>
+                                    <td><h4>Australia dollar<br><span>Rs.146</span></h4></td>
+                                </tr>
+                                <tr>
+                                    <td><h4>KWD<br><span>Rs.662</span></h4></td>
+                                </tr>
+                                <tr>
+                                    <td><h4>Indian rupee<br><span>Rs.2.69</span></h4></td>
+                                </tr>
+                                <tr>
+                                    <td><h4>Yen<br><span>Rs.1.81</span></h4></td>
+                                </tr>
+                                <tr>
+                                    <td><h4>Krona<br><span>Rs.22.6</span></h4></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div> 
+                </div>
+
+            </div>          
+
+        </div>
+        <script>
+            function toggleMenu(){
+                let toggle = document.querySelector('.toggle');
+                let navigation = document.querySelector('.navigation');
+                let main = document.querySelector('.main');
+
+
+                toggle.classList.toggle('active')
+                navigation.classList.toggle('active')
+                main.classList.toggle('active')
+
+
+            }
+        </script>
+    </body>
+
+</html>
