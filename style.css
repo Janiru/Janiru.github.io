@@ -242,9 +242,7 @@ body{
 {
     position: relative;
     display: grid;
-    min-height: 500px;
-    background:#E8E9FE;    
-    padding: 20px;
+    padding-left: 60px;
 }
 .cardHeader
 {
@@ -275,6 +273,7 @@ body{
     margin-top: 10px;
     background:#E8E9FE;
 }
+
 .details table thead td
 {
     font-weight: 600;
@@ -295,7 +294,7 @@ body{
 }
 .details .recentActivities table tr td
 {
-    padding: 9px 5x;
+    padding: 17px 5px;
 }
 .details .recentActivities table thead tr td:last-child,
 .details .recentActivities table tbody tr td:last-child
@@ -341,7 +340,9 @@ body{
     min-height: 530px;
     background: #fff;
     padding: 10px;
+    padding-left: 130px;
     background:#E8E9FE;
+    
 }
 
 .details .currentExchangerates table tr td h4 span
@@ -349,6 +350,7 @@ body{
     font-size: 16px;
     font-weight: 500;
     color: #999;
+   
 }
 
 
@@ -361,13 +363,15 @@ body{
 }
 .details .currentExchangerates table tr td
 {
-    padding: 7px 10px;
+    padding: 7px 17px;
+   
 }
 .details .currentExchangerates table tr td h4
 {
     font-size: 16px;
     font-weight: 550;
     line-height: 1.2em;
+    
 }
 
 @media (max-width: 992px)
