@@ -16,7 +16,7 @@ body{
     position: fixed;
     width: 300px;
     height: 100%;
-    background-image: linear-gradient(to left,#6266d3,#9669df);
+    background:#172a3a;
     transition: 0.5s;
     overflow-x: hidden;
 }
@@ -47,7 +47,7 @@ body{
 }
 .navigation ul li:hover
 {
-    background-image: linear-gradient(to bottom left,#8351ce,#5d61d6);
+    background:#2b4c67;
     transform: scale(1.05);
     transition: transform 300ms ease;
 }
@@ -109,7 +109,7 @@ body{
 .main .topbar
 {
     width: 100%;
-    background-image: linear-gradient(to left,#6266d3,#9669df);
+    background:#172a3a;
     height: 80px;
     display: flex;
     padding: 0 10px;
@@ -195,7 +195,7 @@ body{
     padding: 70px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    background:#E8E9FE;
+    background:#d8edff;
     grid-gap: 20px;
 }
 .cardBox .card
@@ -206,7 +206,7 @@ body{
     display: flex;
     justify-content: space-between;
     cursor: pointer;
-    background:#dfe0ff;
+    background:#bfddf7;
     border-radius: 20px;
     
 }
@@ -224,7 +224,7 @@ body{
 }
 .cardBox .card .cardName
 {
-    color: #999;
+    color: rgb(0, 0, 0);
     line-height: 220%;
 
 
@@ -232,7 +232,7 @@ body{
 .cardBox .card .iconBox
 {
     font-size: 2.5em;
-    color: #9055e7;
+    color: #172a3a;
    
 }
 .details
@@ -243,7 +243,7 @@ body{
     padding-top: 35px;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    background:#E8E9FE;
+    background:#d8edff;
       
 }
 .details .recentActivities
@@ -283,8 +283,8 @@ body{
 {
     position: relative;
     padding: 10px 13px;
-    background: #8a68e9;
-    color: #fff;
+    background: #97bfe3;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     border-radius: 6px;
     
@@ -305,7 +305,7 @@ body{
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
-    background:#E8E9FE;
+    background:#d8edff;
 }
 
 .details table thead td
@@ -315,7 +315,7 @@ body{
 .details .recentActivities table tr
 {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    background:#E8E9FE;
+    background:#d8edff;
 }
 
 .details .recentActivities table tr:active {
@@ -330,7 +330,7 @@ body{
 }
 .details .recentActivities table tbody tr:hover
 {
-    background: #997af0;
+    background: #2b4c67;
     color: #fff;
     transform:scale(1.02);   
     transition: transform 300ms ease;
@@ -379,20 +379,20 @@ body{
 }
 .completed
 {
-    background: #a771ec;
+    background: #3e627e;
 }
 .pending
 {
-    background: #9b2dc7;
+    background: #2b4c67;
 }
 .details .currentExchangerates
 {
     position: relative;
     min-height: 530px;
-    background: #fff;
+    background: #d8edff;
     padding: 10px;
     padding-left: 130px;
-    background:#E8E9FE;
+    background:#d8edff;
     
 }
 
@@ -409,7 +409,7 @@ body{
 
 .details .currentExchangerates table tr:hover td h4 span
 {
-    background: #997af0;
+    background: #5284b0;
     color: #fff;
     transform:scale(1.04);   
     transition: transform 300ms ease; 
