@@ -5,12 +5,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Popins', sans-serif ;
-    
+
 }
 body{
-    overflow-x: hidden;    
+    overflow-x: hidden;
 }
-  
+
 .navigation
 {
     position: fixed;
@@ -37,17 +37,17 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%; 
+    width: 100%;
 }
 .navigation ul li
 {
     position: relative;
-    width: 100%;    
+    width: 100%;
     list-style: none;
 }
 .navigation ul li:hover
 {
-    background:#2b4c67;
+    background: #1eff48;
     transform: scale(1.05);
     transition: transform 300ms ease;
 }
@@ -122,7 +122,7 @@ body{
     width: 60px;
     height: 60px;
     cursor: pointer;
-    
+
 }
 
 
@@ -133,7 +133,7 @@ body{
     position: absolute;
     width: 100%;
     height: 100%;
-    line-height: 60px; 
+    line-height: 60px;
     font-size: 24px;
     text-align:center;
     color: #111;
@@ -143,13 +143,13 @@ body{
     position: relative;
     width: 400px;
     margin: 0 10px;
-    
+
 }
 .search label
 {
     position: relative;
     width: 100%;
-    
+
 
 }
 .search label input
@@ -161,14 +161,14 @@ body{
      padding-left: 35px;
      outline: none;
      border: 1px solid rgba(0, 0, 0, 0.2)
-     
+
 }
 .search label .fa
 {
     position: absolute;
     left: 15px;
     top: 2px;
-} 
+}
 .user
 {
     position: relative;
@@ -201,14 +201,14 @@ body{
 .cardBox .card
 {
     position: relative;
-    
+
     padding: 20px;
     display: flex;
     justify-content: space-between;
     cursor: pointer;
     background:#bfddf7;
     border-radius: 20px;
-    
+
 }
 .cardBox .card:hover
 {
@@ -233,7 +233,7 @@ body{
 {
     font-size: 2.5em;
     color: #172a3a;
-   
+
 }
 .details
 {
@@ -244,7 +244,7 @@ body{
     display: grid;
     grid-template-columns: 2fr 1fr;
     background:#d8edff;
-      
+
 }
 .details .recentActivities
 {
@@ -258,7 +258,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    
+
 
 }
 .cardHeader h2
@@ -269,8 +269,8 @@ body{
     background-repeat: no-repeat;
     background-position: left bottom;
 
-    transition:300ms ease;  
-    
+    transition:300ms ease;
+
 }
 
 .cardHeader h2:hover
@@ -287,7 +287,7 @@ body{
     color: rgb(0, 0, 0);
     text-decoration: none;
     border-radius: 6px;
-    
+
 }
 
 .btn:active {
@@ -326,13 +326,13 @@ body{
 .details .recentActivities table tbody tr:last-child
 {
     border-bottom: none;
-    
+
 }
 .details .recentActivities table tbody tr:hover
 {
     background: #2b4c67;
     color: #fff;
-    transform:scale(1.02);   
+    transform:scale(1.02);
     transition: transform 300ms ease;
 }
 .details .currentExchangerates table tbody tr:first-child
@@ -340,8 +340,8 @@ body{
     border-bottom: none;
     background:#E8E9FE;
     color: rgb(0, 0, 0);
-    
-    
+
+
 }
 .details .recentActivities table tr td
 {
@@ -393,7 +393,7 @@ body{
     padding: 10px;
     padding-left: 130px;
     background:#d8edff;
-    
+
 }
 
 .details .currentExchangerates table tr td h4 span
@@ -401,7 +401,7 @@ body{
     font-size: 16px;
     font-weight: 500;
     color: #999;
-   
+
 }
 
 
@@ -411,8 +411,8 @@ body{
 {
     background: #5284b0;
     color: #fff;
-    transform:scale(1.04);   
-    transition: transform 300ms ease; 
+    transform:scale(1.04);
+    transition: transform 300ms ease;
 }
 
 .details .currentExchangerates table tr:active td h4 span {
@@ -423,14 +423,14 @@ body{
 .details .currentExchangerates table tr td
 {
     padding: 7px 17px;
-   
+
 }
 .details .currentExchangerates table tr td h4
 {
     font-size: 16px;
     font-weight: 550;
     line-height: 1.2em;
-    
+
 }
 
 @media (max-width: 992px   )
@@ -453,7 +453,7 @@ body{
         width: calc(100% - 300px);
         left: 300px;
     }
-    .cardBox 
+    .cardBox
     {
         grid-template-columns: repeat(2,1fr);
     }
@@ -463,7 +463,7 @@ body{
     .details
     {
         grid-template-columns: repeat(1,1fr);
-        
+
     }
     .details .currentExchangerates
     {
@@ -479,22 +479,22 @@ body{
 {
     .cardBox
     {
-        grid-template-columns: repeat(1,1fr); 
+        grid-template-columns: repeat(1,1fr);
     }
-    .details .recentActivities 
+    .details .recentActivities
     {
-        overflow-x: auto;        
+        overflow-x: auto;
     }
     .details .recentActivities table
     {
-       width: 600px;  
+       width: 600px;
     }
     .navigation
     {
         width: 100%;
         z-index: 1000;
     }
-    .toggle 
+    .toggle
     {
         z-index: 10000;
     }
