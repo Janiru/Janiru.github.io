@@ -7,6 +7,26 @@
     font-family: 'Popins', sans-serif ;
 
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #5284b0; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #28455e; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #182937; 
+}
+
 body{
     overflow-x: hidden;
 }
@@ -47,7 +67,7 @@ body{
 }
 .navigation ul li:hover
 {
-    background: #1eff48;
+    background: #457090;
     transform: scale(1.05);
     transition: transform 300ms ease;
 }
@@ -379,11 +399,11 @@ body{
 }
 .completed
 {
-    background: #3e627e;
+    background: #457090;
 }
 .pending
 {
-    background: #2b4c67;
+    background: #1f303e;
 }
 .details .currentExchangerates
 {
